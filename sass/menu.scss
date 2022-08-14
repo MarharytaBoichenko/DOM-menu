@@ -39,6 +39,14 @@ body {
   height: 100%;
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
+}
+
+.nav__button:hover,
+.nav__button:focus {
+  color: $btnColor;
+  outline: none;
+  font-size: 2rem;
 }
 
 .nav__item {
@@ -129,5 +137,12 @@ body {
 
   .nav__item:before {
     transform: skew(20deg, 20deg) rotate(347deg);
+  }
+
+  .decoration {
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
